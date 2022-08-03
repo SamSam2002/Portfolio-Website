@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--head starts here-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title of the page is assigned-->
+    <title>More to explore</title>
+    <!--using external css extension and linking it to page for its styling-->
+    <link href="..\css\more.css" rel="stylesheet" type="text/css">
+    </head>
+    <!--head ends here
+    body starts here-->
+    <body>
+    <!--navigation bar starts here-->
+    <!--dividing class navigation-->
+    <nav class="Navigation">     
+        <ul>
+            <!--assigning different links to be linked to navigate to everypages of the website-->
+            <li><a href = "..\homepage.html">Home</a></li>
+            <li><a href = "..\html\CV.html">MyCV</a></li>
+            <li><a href = "..\html\Blog.html">Blog</a></li>
+            <li><a href = "..\html\Research.html">Research</a></li>
+            <li><a href = "C:\Users\dell\OneDrive\Documents\informationsystem\html\More.html">More</a></li>
+        </ul>
+    </nav>
+    <!--navigation ends here-->
+
+    <!--a section is divided for feedback box as class named "panel-container" with id "panel"-->  
+<div id="panel" class="panel-container">
+    <strong>
+        How did you find my blog?<br>please rate down below!</strong>
+        <!--sub division of panel-container to rating container which is our feedback box-->
+    <div class="rating-container"> 
+        <!--subdividision of rating container to "rating" where rating emoticons are added-->
+        <div class="rating">
+            <img src="..\images\sad.png" alt="sad">
+            <small>Unhappy</small>
+        </div>
+        <div class="rating">
+            <img src="..\images\neutral.png" alt="neutral">
+            <small>Neutral</small>
+        </div>
+        <div class="rating active">
+            <img src="..\images\happy.png" alt=" happy">
+            <small>Happy</small>
+        </div>
+    </div>
+    <!--rating ends here-->
+    <button class="button"id ="send">Send Review</button>
+</div>
+<!--rating container ends here-->
+</div>
+<!--panel-container ends here-->
+     <!--dividing another section for feedback form with class "wrapper"-->
+    <div class="wrapper">
+        <h2>Contact Me</h2>
+        <div id="error_message"></div>
+
+        <!--form tag starts here-->
+        <form id="myform" onsubmit="return validate();">
+            <!--class input field contains input element with type attrbute of text which displays a single line text input field-->
+          <div class="input_field">
+              <input type="text" placeholder=" Your Sweet Name" id="name">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder=" Your Queries" id="subject">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Phone Number" id="phone">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Email" id="email">
+          </div>
+          <!--class input field contains input elemnt with type attribute of textarea which displays a multiline of comments and reviews or message-->
+          <div class="input_field">
+              <textarea placeholder="Message" id="message"></textarea>
+          </div>
+          <!--btn class contains input element with type attribute of submit which helps in submitting the form values to form handler-->
+          <div class="btn">
+              <input type="submit">
+          </div>
+        </form>
+        <!--form ends here-->
+      </div>
+      <!-- wrapper section with form ends here-->
+<script src="..\javascript\java.js">
+</script>
+<!--using external java extension for functionality of feedback and form-->
+</body>
+<!--body ends here-->
+</html>
+<!--code ends here-->

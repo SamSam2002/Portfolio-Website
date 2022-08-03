@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+/*for google fonts*/
+
+*{
+ margin: 0;
+box-sizing: border-box;
+}
+
+
+/* styling navigation bar */
+ .Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: rgb(4, 49, 65);
+    position: sticky ;
+    top: 0;
+}
+/*designing the items in navigation bar */
+
+.Navigation ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.Navigation ul li {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: large;
+}
+.Navigation ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 8px 25px;
+    transform: all .5s ease;
+    width: large;
+}
+.Navigation ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+}
+/*styling the body with a background image*/
+body{
+    background-image: url("C:/Users/dell/OneDrive/Documents/informationsystem/images/pastel-clever-technology-low-poly-banner-design-colorful-pastel-background-your-business-advertising-graphic-design-141574550.jpg ");
+    font-family:'Gochi Hand', cursive;
+}
+    
+
+/*feedback box*/
+
+.panel-container{
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0, 0,0, 0.3);
+    border-radius: 4px;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5px;
+    
+}
+/*designing the main text*/
+.panel-container strong{
+    line-height: 20px;
+}
+.panel-container p{
+    margin: 25px 0;
+    line-height: 20px;
+}
+/*designing the whole rating area*/
+.rating-container{
+    display: flex;
+    margin-left: 10px;
+}
+/*for emoticons to be pointed*/
+.rating{
+    cursor: pointer;
+    flex: 1;
+    padding: 20px;
+    margin: 10px 5px;
+}
+/*for emoticons to hover when pointed*/
+.rating.active,
+.rating:hover{
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0,0, 0.3);
+}
+.rating img{
+    width: 40px;
+}
+/*designing the button "send review"*/
+.button{
+    background: rgb(4, 49, 65);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 30px;
+    
+}
+/* contact me form*/
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: rgb(4, 49, 65);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+  }
+  /* designing h2*/
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  /*styling the input area where the person fills the data*/
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+  }
+  /* for proper size of textarea where message is written*/
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+
+  /*styling the submit button*/
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: pink;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  /*styling the error message*/
+  #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  } 
+
+
+    
+
+
+
+
+
+
+
+    
+    
+
+
+

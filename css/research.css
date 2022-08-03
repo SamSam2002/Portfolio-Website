@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+/*for google fonts*/
+
+*{
+margin: 0;
+padding: 0;
+}
+/*styling body */
+body{
+    
+    font-family: 'Gochi', cursive;
+
+}
+
+
+
+/* styling navigation bar */
+ .Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: rgb(4, 49, 65);
+    position: sticky ;
+    top: 0;
+}
+/*designing the item in navigation bar */
+
+.Navigation ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.Navigation ul li {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: large;
+}
+.Navigation ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 8px 25px;
+    transform: all .5s ease;
+    width: large;
+}
+.Navigation ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+
+    
+}
+/*styling the main title*/
+h1{
+    font-style: italic;
+    color: white;
+    font-weight: 600;
+}
+/*styling home section*/
+.Home{
+    background-color: powderblue;
+}
+.Home img{
+    width: 600px;
+    height: 400px;
+    padding: 20px 20px;
+        
+}
+
+/*styling CV section*/
+.CV{
+    background: lightsalmon;
+    
+}
+.CV img{
+    width: 600px;
+    height: 400px;
+    padding: 20px 20px;   
+}
+
+/*styling blog section*/
+.Blog{
+    background-color: mediumaquamarine;
+}
+.Blog img{
+    width: 600px;
+    height: 400px;
+    padding: 20px 20px;
+}
+
+/*styling contact section*/
+.Contact{
+    background-color: navajowhite;
+}
+.Contact img{
+    width: 600px;
+    height: 400px;
+    padding: 20px 20px;
+}
+
+/*styling the buttons used for linking to references website*/
+.button{
+    background-color: rgb(4, 49, 65);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16pxpx;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*designing link*/
+.link{
+font-style: italic;
+color: white;
+}
+

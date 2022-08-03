@@ -1,0 +1,93 @@
+/* ----for fonts ----*/
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*for styling body*/
+body{
+    
+    background: pink;
+
+}
+
+
+
+/* styling navigation bar */
+ .Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: rgb(4, 49, 65);
+    position: sticky ;
+    top: 0;
+}
+/*designing the item in navigation bar */
+
+.Navigation ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.Navigation ul li {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: large;
+}
+.Navigation ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 8px 25px;
+    transform: all .5s ease;
+    width: large;
+}
+.Navigation ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+}
+/*designing the cv section containing table*/
+    
+table tr td :hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+
+}
+table{
+    font-family: 'Gochi Hand', cursive;
+}
+
+
+
+
+ 
+
+
+
+
+
+ 
+    
+
+
+
+
+
+    
+
+
+
+
+     
+
+
+
+
+
+
+

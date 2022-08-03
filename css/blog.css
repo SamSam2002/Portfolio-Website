@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+/* styling navigation bar */
+} .Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: rgb(4, 49, 65);
+    position: sticky ;
+    top: 0;
+}
+/*designing the item in navigation bar */
+
+.Navigation ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.Navigation ul li {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: large;
+}
+.Navigation ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 8px 25px;
+    transform: all .5s ease;
+    width: large;
+}
+.Navigation ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+
+} 
+
+/* body style*/
+
+.mainbody {
+    font-family:'Gochi Hand', cursive;
+    background-color: pink; 
+    overflow: auto;
+    font-style: italic;
+    
+}
+
+
+/*topic edit*/
+
+.techhead{
+    text-align: left;
+    margin-left: 10px;
+    text-transform: capitalize;
+    position: sticky;
+    position: -webkit-sticky;
+    
+    
+
+}
+
+
+
+
+
+/*gallery*/
+
+img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+/*left sub category*/
+
+.techsub{
+    color:white;
+    
+
+}
+/*designing the contact me button*/
+
+.button{
+   background-color: rgb(4, 49, 65);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16pxpx;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*designing subtopic*/
+.subtopic{
+    margin-left: 10px;
+    float: left;
+    background-color: pink;
+    border-radius: 10px;
+
+}
+
+/* info in the right*/
+.techbody{
+    float:left;
+    background-color: pink;
+
+}
+
+.infobody{
+    margin-left: 200px;
+    text-indent: 50px;
+    text-align: justify;
+    margin-right: 40px;
+    background-color:rgba(255, 255, 255, 0.753);
+    border-radius: 10px;
+    padding-left: 10px;
+}
